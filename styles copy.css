@@ -1,0 +1,115 @@
+@import "recipedetails.css";
+ body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 0;
+}
+/* Header and Navbar */
+ header{
+     background: purple;
+     height: 100px;
+     color: rgba(255, 255, 255, 0.788);
+     text-align: center;
+     align-content: center;
+     display: flex;
+     justify-content: center;
+}
+ .nav-bar {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 30px;
+     padding-right: 30px;
+
+}
+ .nav-menu{
+     display: flex;
+     flex-direction: row;
+}
+ .nav-menu ul {
+     display: inline-flex;
+     justify-content: space-around;
+     padding: 0;
+}
+ li {
+     display: block;
+     text-transform: uppercase;
+     margin-right: 15px;
+}
+ a {
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.788);
+}
+ .nav-search-bar input{
+     right: 80px;
+     display: flex;
+     align-items: center;
+     border-left: 1px solid rgba(0,0,0,.1);
+     height: 45px;
+     border-radius: 10px;
+     width: 200px;
+}
+
+
+/* Footer css */
+ footer{
+     background: purple;
+     color: rgba(255, 255, 255, 0.788);
+     display: flex;
+     flex-direction: column;
+     padding: 25px;
+}
+ footer .top{
+     display: flex;
+     flex-direction: row;
+}
+ .about_us{
+     display: flex;
+     flex-direction: column;
+     width: 40%;
+     text-align: left;
+     padding: 10px;
+}
+ .contact_us, .events{
+     display: flex;
+     flex-direction: column;
+     width: 20%;
+     padding: 10px;
+}
+ footer h4{
+     font-size: 24px;
+     margin-top: 0;
+     margin-bottom: 0;
+}
+ footer ul{
+     margin-left: -20px;
+}
+footer li{
+     cursor: pointer;
+     margin-top: 10px;
+}
+ footer p{
+     padding-right: 20px;
+}
+ .copyright{
+     text-align: center;
+}
+ .icons{
+     margin-top: 30px;
+}
+ .icons i{
+     font-size: 30px;
+     margin-right: 20px;
+}
+ main{
+     height: calc(100vh - 320px);
+     align-content: center;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+}
+
+
+
+ 
