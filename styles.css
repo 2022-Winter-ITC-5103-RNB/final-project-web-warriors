@@ -45,7 +45,7 @@
      display: flex;
      align-items: center;
      border-left: 1px solid rgba(0,0,0,.1);
-     height: 45px;
+     height: 40px;
      border-radius: 10px;
      width: 200px;
 }
@@ -70,7 +70,7 @@
      text-align: left;
      padding: 10px;
 }
- .contact_us, .events{
+ .contact_us, .events, .social{
      display: flex;
      flex-direction: column;
      width: 20%;
@@ -109,7 +109,69 @@ footer li{
      flex-direction: column;
      text-align: center;
 }
+/* body {
+     padding: 10px;
+     background: #eee;
+}
+ */
+
+ @media only screen and (min-width: 320px) and (max-width: 990px){
+footer .top{
+     flex-direction: column;
+}
+.about_us,.contact_us, .events, .social{
+     width: 100%;
+     margin-top: 30px;
+}
+
+.icons i{
+     font-size: 50px;
+}
+
+.copyright{
+     text-align: center;
+     font-size: 36px;
+}
+
+.nav-bar {
+     flex-direction: column;
+     align-items: flex-start;
+     text-align: center;
+}
+
+.nav-menu{
+     flex-direction: column;
+
+}
+
+.nav-menu ul {
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+}
+
+.nav-menu li{
+     margin-top: 20px;
+     font-size: 24px;
+}
+
+header{
+     height: auto;
+}
+
+.nav-search-bar input{
+width: 400px;
+height: 40px;
+font-size: 30px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.nav-logo h4{
+     font-size: 40px;
+
+}
 
 
-
+}
  

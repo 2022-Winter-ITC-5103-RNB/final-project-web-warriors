@@ -1,0 +1,236 @@
+body{
+    background-color: white;
+    
+}
+label.logo{
+    color:rgba(255, 255, 255, 0.788);
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 40px;
+    font-weight: bold;
+}
+.nav-bar{
+    background-color: purple;
+   /** height:130px; */
+    height:auto;
+}
+header::after{
+    content: '';
+    display:table;
+    clear:both;
+} 
+
+.nav-menu {
+    float:right;
+}
+.nav-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 1px;
+}
+.nav-menu ul li a{
+    color: rgba(255, 255, 255, 0.788);
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 20px;
+    padding: 4px 7px;
+    border-radius: 3px;
+}
+.nav-menu ul li a.hover{
+    color:pink;
+}
+a.active ,a:hover{
+    background: pink;
+    transition: .5s;
+
+}
+.nav-search{
+    display: inline-block;
+    box-shadow: #bbb;
+}
+.checkbtn{
+    font-size: 30px;
+    color:white;
+    float:left;
+    line-height: 80px;
+    margin-right:40px;
+    cursor:pointer;
+    
+}
+#check{
+    display:none;
+}
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: purple;
+}
+.createPage{
+    padding-top: 10px ;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom:5px ;
+    width: 300px;  
+    overflow: hidden; 
+    margin-top: 0;
+    margin-left:500px;  
+    background: rgb(201, 142, 201);  
+    border-radius: 2px ;
+    
+}
+
+label{
+    color:black;
+    font-size:medium;
+}
+#Uname{  
+    width: 150px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 150px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;      
+}  
+#rePass{  
+    width: 100px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 3px;  
+    margin-left: 5px;      
+}  
+#log{  
+    width: 250px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(46, 4, 46);  
+}  
+
+
+footer{
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:200px;   /* Height of the footer */
+    background: #7f7fe2;  
+
+}
+footer{
+    background: purple;
+    color: rgba(255, 255, 255, 0.788);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+footer .top{
+    display: flex;
+    flex-direction: row;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+}
+.contact_us, .events, .social{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+}
+footer h4{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer ul{
+    margin-left: -20px;
+}
+footer li{
+    cursor: pointer;
+    margin-top: 10px;
+}
+footer p{
+    padding-right: 20px;
+}
+.copyright{
+    text-align: center;
+}
+.icons{
+    margin-top: 30px;
+}
+.icons i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+main{
+    height: calc(100vh - 320px);
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 990px) {
+    
+    /**.createPage{  
+        width: 250px;
+        margin: 0 20px 0 10px;  
+        padding: 30px; 
+        padding-bottom: 10px;   
+    }*/
+
+    .createPage{
+        width: 200px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 10px;  
+        padding: 10px;  
+        background: rgb(201, 142, 201);  
+        border-radius: 1px ;  
+    }
+    #Uname{
+        width: 150px;  
+        height: 20px; 
+    }
+    #Pass{
+        width: 150px;  
+        height: 20px;
+    } 
+    #email{
+        width:150px;
+        height:20px;
+    }
+    footer .top{
+        flex-direction: column;
+   }
+   .about_us,.contact_us, .events, .social{
+        width: 100%;
+        margin-top: 30px;
+   }
+   
+   .icons i{
+        font-size: 50px;
+   }
+   
+   .copyright{
+        text-align: center;
+        font-size: 36px;
+   }
+}  
+
