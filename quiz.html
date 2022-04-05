@@ -35,33 +35,35 @@
       </header>
       <!-- main section -->
       <main>
+         <div class="quiz-container" id="quiz">  
+            <div class="quiz-header">  
          <h1>QUIZ</h1>
-         <form name="Quiz_form" action="submit.html" >
-         what country does pizza originate from?<br>
-    <input type="radio" name="pizz" value="China">China<br>
-    <input type="radio" name="pizza" value="Russia">Russia<br>
-    <input type="radio" name="pizza" value="Italy">Italy<br><br>
-    which of the following is chinese recipe?<br>
-    <input type="radio" name="recipe" value="Pasta">pasta<br>
-    <input type="radio" name="recipe" value="Noodles">Noodles<br>
-    <input type="radio" name="recipe" value="Sushi">Sushi<br><br>
-    where were fortune cookies invented?<br>
-    <input type="radio" name="cookies" value="India">India<br>
-    <input type="radio" name="cookies" value="America">America<br>
-    <input type="radio" name="cookies" value="London">London<br><br>
-    what was the first vegetable ever planted in space?<br>
-    <input type="radio" name="vegetable" value="Onion">Onion<br>
-    <input type="radio" name="vegetable" value="Potato">Potato<br>
-    <input type="radio" name="vegetable" value="Carrot">Carrot<br><br>
-    which cheese is made from the milk of buffalo?<br>
-    <input type="radio" name="cheese" value="Mozzarella cheese">Mozzarella cheese<br>
-    <input type="radio" name="cheese" value="parmesan cheese">parmesan cheese<br>
-    <input type="radio" name="cheese" value="Provolone cheese">Provolone cheese<br><br>
-    <br>
-    <p><input type="submit" id="submit" value="Submit"></p>
-    <input type="text" readonly="" id="timespent" value="0:00">
-         </form>
+         
       </main>
+      
+          <h2 id="question">what country does pizza originate from?</h2>  
+          <ul>  
+           <li>  
+            <input type="radio" name="answer" id="a" class="answer" />  
+            <label for="a" id="a_text">China</label>  
+           </li>  
+           <li>  
+            <input type="radio" name="answer" id="b" class="answer" />  
+            <label for="b" id="b_text">Russia</label>  
+           </li>  
+           <li>  
+            <input type="radio" name="answer" id="c" class="answer" />  
+            <label for="c" id="c_text">Italy</label>  
+           </li>  
+           <li>  
+            <input type="radio" name="answer" id="d" class="answer" />  
+            <label for="d" id="d_text">Japan</label>  
+           </li>  
+          </ul>  
+         </div>  
+         <button id="submit">Submit</button>  
+        </div> 
+
       <!-- footer -->
       <footer class="footer">
          <div class="top">
@@ -97,5 +99,6 @@
             <h5>&copy; Copyright 2022 All rights reserved by Cook Book</h5>
          </div>
       </footer>
+      <script src="quiz.js"></script>
    </body>
 </html>

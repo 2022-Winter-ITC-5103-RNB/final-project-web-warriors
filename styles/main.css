@@ -1,3 +1,12 @@
+main h1{
+    color:blueviolet
+
+}
+#submit{
+    color:purple;
+    background-color: aliceblue;
+   
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
