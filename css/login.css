@@ -1,0 +1,103 @@
+
+.checkbtn{
+    font-size: 30px;
+    color:white;
+    float:left;
+    line-height: 80px;
+    margin-right:40px;
+    cursor:pointer;
+    
+}
+#check{
+    display:none;
+}
+
+
+.login{  
+    padding-top: 10px ;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom:40px ;
+    margin-top: 20px;;
+    overflow: hidden;  
+    margin: auto;  
+    border:rgb(223, 148, 223) 3px solid;
+    background:rgb(201, 142, 201);  
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: purple;
+}
+label{
+    color:rgb(250, 215, 239);
+    font-size:medium;
+}
+#Uname{  
+    width: 200px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 200px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;      
+}  
+#log{  
+    width: 250px;  
+    height: 30px;  
+   
+}  
+h4{
+    font-size:medium;
+    color:white;
+}
+
+
+.signup{
+    margin-top: 30px;
+}
+
+    
+
+  #small{
+    height: 400px;
+    width: 350px;
+    float:left;
+    padding:5px;
+  }
+   
+   
+  
+
+
+   #log{
+       background: purple;
+       color: #fff;
+       width: 300px !important;
+       padding: 10px;
+       text-align: center;
+       height: auto;
+       border: none;  
+       border-radius: 17px;  
+    color: #fff;
+       
+   }
+
+
+   #log a{
+       font-size: 26px;
+
+   }
+
+
+
+
+   

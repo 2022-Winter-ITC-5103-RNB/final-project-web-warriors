@@ -1,0 +1,37 @@
+
+  .forgotpass{
+    border:rgb(223, 148, 223) solid;
+    background:rgb(201, 142, 201);  
+    padding-top: 30px;
+    width: auto;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    
+  } 
+
+  #log{
+      background: purple;
+      padding: 15px 50px;
+      border: none;
+      border-radius: 25px;
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 990px){
+ 
+
+#small{
+height: 400px;
+width: 350px;
+float:left;
+padding:5px;
+}
+.forgotpass{
+    border:rgb(223, 148, 223) 3px solid;
+    background:rgb(201, 142, 201);  
+    padding-top: 30px;
+   }
+
+}   
+
+  

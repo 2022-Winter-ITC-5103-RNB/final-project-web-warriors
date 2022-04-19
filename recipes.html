@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8">
       <title>Cook Book</title>
-      <link rel="stylesheet" href="css/forgot.css" />
+      <link rel="stylesheet" href="css/recipe.css" />
       <link rel="stylesheet" href="css/styles.css" />
 
       <link rel="icon" href="img/favicon.ico">
@@ -46,49 +46,74 @@
       <!-- main section -->
       <main>
        
-        <div class="forgotpass">
-            <lable><b>Username:</b></lable>
-            <input type="text" name="Uname" id="Uname" placeholder="Username">
-            <span>*</span><br />     
-            <br><br>    
-            <lable><b>Password:</b></lable>
-            <input type="password" name="Pass" id="Pass" placeholder="Password"> 
-            <span>*</span><br />    
-            <br><br> 
-            <lable><b>Confirm-Password:</b></lable>
-            <input type="password" name="rePass" id="rePass" placeholder="Password"> 
-            <span>*</span><br />    
-            <br><br>    
-            <button type="button" name="log" id="log"> <a href="login.html" > Reset</a></button>      
-            <br><br> 
-            </div>
-            <!-- Search Link -->
-               <!-- Subscibe -->
-         <div class="center modal-box">
-            <div class="fas fa-times"></div>
-            <div class="subscribe-data">
-               <h1>Subscription</h1>
-               <P>$30/Month</P>
-               <P>$150/6 Months</P>
-               <P>$300/Annum</P>
-            </div>
-       
-
-            <form action="">
-               <div class="fas fa-envelope"></div>
-               <input type="email" required placeholder="sample@email.com">
-               <button>Subscribe</button>
-            </form>
-            <div class="icons">
-               <i class="fa fa-facebook-f"></i>
-               <i class="fa fa-twitter"></i>
-               <i class="fa fa-instagram"></i>
-               <i class="fa fa-youtube"></i>
-            </div>
+        <h1>Recipe name to view complete recipe </h1>
+        <!-- <h2>Types of food</h2> -->
+        <u2>
+           
+           <li><a href="Mexican.html">MEXICAN</a></li>
+           <li><a href="Desserts.html">Desserts</a></li>
+            <li><a href="south.html">South Indian recipes</a></li>
+            <li><a href="punjabi.html">Punjabi Recipes</a></li>
+            <li><a href="gujarati.html">Gujarati Recipes</a></li>
+            <li><a href="chinese.html">chinese</a></li>
+           
+     </u2>
+     
+      
+    <div class="row">
+        <div class="column">
+           <a href=""><img  class="image" src="img/bamboochickenbiryani.jpeg" alt="bamboochickenbiryani" /></a> <div class="icons"><i class="fa-solid fa-share"></i><i class="fa-solid fa-heart"></i> </div>
+            <h2><a href="recipe_details.html">Bamboo chicken biryani recipe</a></h2>   
+        </div>
+        <div class="column">
+           <a href=""> <img class="image" src="img/rasmalai1.jpeg" alt="rasmalai" /></a><div class="icons"> <i class="fa-solid fa-share"></i><i class="fa-solid fa-heart"></i></div>
+        <h2>Rasmalai sweet recipe</h2>
+        </div>
+        <div class="column">
+           <a href=""> <img class="image" src="img/panipoori.jpeg" alt="panipoori" /></a><div class="icons">  <i class="fa-solid fa-share"></i><i class="fa-solid fa-heart"></i></div>
+        <h2>panipoori recipe</h2>
+        </div>
+        <div class="column">
+           <a href=""> <img class="image" src="img/Paneer-Bhurji7.jpg" alt="Paneer-Bhurji" /></a><div class="icons">  <i class="fa-solid fa-share"></i><i class="fa-solid fa-heart"></i></div>
+        <h2>Paneer-Bhurji recipe</h2>
+        </div>
+        <div class="column">
+           <a href="">  <img class="image" src="img/dhokla.jpg" alt="dhokla" /></a><div class="icons">  <i class="fa-solid fa-share"></i><i class="fa-solid fa-heart"></i></div>
+        <h2>Dhokla recipe</h2>
          </div>
-<a href="#search">
+        <div class="column">
+           <a href=""> <img class="image" src="img/karamdosa.jpeg" alt="dosa" /></a><div class="icons">  <i class="fa-solid fa-share"></i><i class="fa-solid fa-heart"></i></div>
+        <h2>Rayalaseema karam dosa</h2>
+        </div>
+    </div>
+   <!-- Subscibe -->
+   <div class="center modal-box">
+      <div class="fas fa-times"></div>
+      <div class="subscribe-data">
+         <h1>Subscription</h1>
+         <P>$30/Month</P>
+         <P>$150/6 Months</P>
+         <P>$300/Annum</P>
+      </div>
+ 
+
+      <form action="">
+         <div class="fas fa-envelope"></div>
+         <input type="email" required placeholder="sample@email.com">
+         <button>Subscribe</button>
+      </form>
+      <div class="icons">
+         <i class="fa fa-facebook-f"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-youtube"></i>
+      </div>
+   </div>
+        
+         <!-- Search Link -->
+<!-- <a href="#search">
    <i class="fa fa-search"></i> Search
- </a>
+ </a> -->
  
  <!-- Search Form -->
  <div id="search"> 
@@ -98,6 +123,7 @@
        <input value="" name="q" type="search" placeholder="search here"/>
     </form>
  </div>
+
       </main>
       <!-- footer -->
       <footer class="footer">
@@ -134,27 +160,25 @@
             <h5>&copy; Copyright 2022 All rights reserved by Cook Book</h5>
          </div>
 
-         <script src="js/forgot.js"></script>
          <script src="js/main.js"></script>
+         <script src="js/recipes.js"></script>
 
       </footer>
+      <style>
+        .row {
+            display:flex;
+            flex-wrap: wrap;
+            padding:0 4px;
+        }
+        .column{
+            flex:25%;
+            max-width: 25%;
+            padding:0 4px;
+        }
+        .column img{
+            margin-top: 8px;
+            width:100%;
+            padding:10px;
+        }
+        </style>
    </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,268 @@
+/* 
+header h1{
+    font-weight:900;
+    font-style: italic;
+    text-align: center;
+    color:black;
+    font-size: 70px;
+}
+.fa-brands fa-gratipay{
+    color: black;
+}
+body{
+    background-color:white;
+    overflow: scroll;
+    height: calc(100vh - 320px);
+}
+header p{
+    font-weight: bold;
+    font-size: 40px;
+    color:black;
+    text-align: center;
+}
+.firstpage{
+    margin-left: 25%;
+}
+u2{
+    color:black;
+}
+u2 a{
+    color:black;
+}
+body{
+    color:black;
+}
+nav  li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 4.5em;
+    }
+a{
+   text-decoration: none;
+   color:gold;
+   font-weight: bold;
+   font-size: 100%;
+  }
+  
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    padding:0 4px;
+}
+.column{
+    flex:25%;
+    max-width: 25%;
+    padding:0 4px;
+}
+.column img{
+    margin-top: 8px;
+    width:100%;
+    padding:10px;
+}
+@media screen and (max-width: 380px) {
+    .row {
+     grid-template-rows:100;
+    }
+    .image{
+        width: 100%;
+        height: 50%;
+    }
+   
+  }
+  header{
+    background: purple;
+    height: 100px;
+    color: rgba(255, 255, 255, 0.788);
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+}
+.nav-menu ul {
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 0;
+}
+li {
+    display: block;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.788);
+}
+.nav-search-bar input{
+    right: 80px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgba(0,0,0,.1);
+    height: 40px;
+    border-radius: 10px;
+    width: 200px;
+}
+footer{
+    background: purple;
+    color: rgba(255, 255, 255, 0.788);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+footer .top{
+    display: flex;
+    flex-direction: row;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+}
+.contact_us, .events, .social{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+}
+footer h4{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer ul{
+    margin-left: -20px;
+}
+footer li{
+    cursor: pointer;
+    margin-top: 10px;
+}
+footer p{
+    padding-right: 20px;
+}
+.copyright{
+    text-align: center;
+}
+.icons{
+    margin-top: 30px;
+}
+.icons i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+main{
+    height: calc(100vh - 320px);
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    overflow: scroll;
+     
+ }
+
+
+@media only screen and (min-width: 320px) and (max-width: 990px){
+footer .top{
+    flex-direction: column;
+}
+.about_us,.contact_us, .events, .social{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.icons i{
+    font-size: 50px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 36px;
+}
+
+.nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.nav-menu{
+    flex-direction: column;
+
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.nav-menu li{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+header{
+    height: auto;
+}
+
+.nav-search-bar input{
+width: 400px;
+height: 40px;
+font-size: 30px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.nav-logo h4{
+    font-size: 40px;
+
+}
+
+
+} */
+
+
+u2{
+    color:black;
+}
+u2 a{
+    color:black;
+}
+
+.row {
+    display:flex;
+ flex-direction: row;
+    padding:0 4px;
+    flex-wrap: wrap;
+ }
+ .column{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
+ }
+ .column img{
+    margin-top: 8px;
+    width:100%;
+    height: 300px;
+    padding:10px;
+ }
+
+ h2 a{
+     color: #000;
+ }
+

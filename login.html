@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8">
       <title>Cook Book</title>
-      <link rel="stylesheet" href="css/forgot.css" />
+      <link rel="stylesheet" href="css/login.css" />
       <link rel="stylesheet" href="css/styles.css" />
 
       <link rel="icon" href="img/favicon.ico">
@@ -45,26 +45,26 @@
       </header>
       <!-- main section -->
       <main>
-       
-        <div class="forgotpass">
-            <lable><b>Username:</b></lable>
-            <input type="text" name="Uname" id="Uname" placeholder="Username">
-            <span>*</span><br />     
-            <br><br>    
-            <lable><b>Password:</b></lable>
-            <input type="password" name="Pass" id="Pass" placeholder="Password"> 
-            <span>*</span><br />    
-            <br><br> 
-            <lable><b>Confirm-Password:</b></lable>
-            <input type="password" name="rePass" id="rePass" placeholder="Password"> 
-            <span>*</span><br />    
-            <br><br>    
-            <button type="button" name="log" id="log"> <a href="login.html" > Reset</a></button>      
-            <br><br> 
-            </div>
-            <!-- Search Link -->
-               <!-- Subscibe -->
-         <div class="center modal-box">
+        
+        <h1>Login Page</h1>
+        <div class="login">
+        <lable><b>Username:</b></lable>
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <span>*</span><br />
+        <br><br>    
+        <lable><b>Password:</b></lable>
+        <input type="password" name="Pass" id="Pass" placeholder="Password">  
+        <span>*</span><br /> 
+        <br><br>    
+        <button  name="log"  id="log" onclick="validateFrom()"> <a href="home.html">Login</a></button> 
+        
+        <br><br> 
+        <a href="forgotpass.html">forgot password?</a>
+        <h5 class="signup">Don't have account?<a href="create.html">Create new account</a></h5>
+        </div>
+
+           <!-- Subscibe -->
+           <div class="center modal-box">
             <div class="fas fa-times"></div>
             <div class="subscribe-data">
                <h1>Subscription</h1>
@@ -86,6 +86,7 @@
                <i class="fa fa-youtube"></i>
             </div>
          </div>
+<!-- Search Link -->
 <a href="#search">
    <i class="fa fa-search"></i> Search
  </a>
@@ -134,27 +135,8 @@
             <h5>&copy; Copyright 2022 All rights reserved by Cook Book</h5>
          </div>
 
-         <script src="js/forgot.js"></script>
+         <script src="js/login.js"></script>
          <script src="js/main.js"></script>
 
       </footer>
    </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

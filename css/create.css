@@ -1,0 +1,102 @@
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: purple;
+}
+.createPage{
+    margin: auto;
+    padding-top: 10px ;
+    padding-bottom:5px ;
+    width: auto;  
+    overflow: hidden; 
+    background: rgb(201, 142, 201);  
+    border-radius: 2px ;
+    padding: 30px;
+    
+}
+
+label{
+    color:black;
+    font-size:medium;
+}
+#Uname{  
+    width: 150px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 150px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;      
+}  
+#rePass{  
+    width: 100px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 3px;  
+    margin-left: 5px;      
+}  
+#log{  
+    width: 250px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background: rgb(46, 4, 46);
+    color: #fff;  
+}  
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 990px) {
+    
+    /**.createPage{  
+        width: 250px;
+        margin: 0 20px 0 10px;  
+        padding: 30px; 
+        padding-bottom: 10px;   
+    }*/
+
+    .createPage{
+        width: 200px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 10px;  
+        padding: 10px;  
+        background: rgb(201, 142, 201);  
+        border-radius: 1px ;  
+    }
+    #Uname{
+        width: 150px;  
+        height: 20px; 
+    }
+    #Pass{
+        width: 150px;  
+        height: 20px;
+    } 
+    #email{
+        width:150px;
+        height:20px;
+    }
+    footer .top{
+        flex-direction: column;
+   }
+   .about_us,.contact_us, .events, .social{
+        width: 100%;
+        margin-top: 30px;
+   }
+   
+   .icons i{
+        font-size: 50px;
+   }
+   
+   .copyright{
+        text-align: center;
+        font-size: 36px;
+   }
+}  

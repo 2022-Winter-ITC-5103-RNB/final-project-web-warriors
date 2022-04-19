@@ -1,0 +1,50 @@
+
+    main h1{
+        text-align: center;
+        color: blueviolet;
+    }
+  #description{
+      text-align: right;
+      width:180px;
+  }
+ 
+  main div {
+      margin-bottom: 0.5em;
+      justify-content: center;
+      align-items: center;
+  }
+  main label {
+      display: inline-block;
+      width: 11em;
+      text-align: right;
+  }
+  main input, select {
+      margin-left: 1em;
+      margin-right: 0.5em;
+  }
+  span {
+      color: red;
+  }
+  
+  body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 0;
+ }
+ .field{
+      display:flex;
+ }
+ /* Header and Navbar */
+  
+ .recipe-form{
+     padding: 20px;
+     width: auto;
+     margin: auto;
+ }
+
+ #terms-container{
+     display: flex;
+     flex-direction: column;
+ }
+ input{
+     font-size: 20px;
+ }
